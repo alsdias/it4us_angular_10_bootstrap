@@ -5,8 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { SteponeModule } from './stepone/stepone.module';
+import { SteptwoModule } from './steptwo/steptwo.module';
 import { HomeComponent } from './home/home.component';
+import { ComponentsModule } from './components/components.module';
 
 
 
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    SteponeModule
+    SteptwoModule,
+    ComponentsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

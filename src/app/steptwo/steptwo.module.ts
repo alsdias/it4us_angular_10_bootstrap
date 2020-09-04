@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SteponeComponent } from './stepone/stepone.component';
+import { SteptwoComponent } from './steptwo/steptwo.component';
 
 
 
 @NgModule({
-  declarations: [SteponeComponent],
+  declarations: [SteptwoComponent],
   imports: [
     CommonModule
   ]
 })
-export class SteponeModule { }
+export class SteptwoModule { }
